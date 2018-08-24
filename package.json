@@ -1,0 +1,27 @@
+{
+  "name": "EtaSite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "dependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "require-dir": "^0.3.2",
+    "y": "^0.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "des": "webpack-dev-server --open", 
+    "prod": "webpack -p --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
