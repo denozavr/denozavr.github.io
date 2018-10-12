@@ -573,7 +573,9 @@ figcaption.mask span {
 }
 
 .fact-item span {
-  display: block;
+  /* display: block; */
+  display: inline-block;
+  vertical-align: baseline;
   font-size: 50px;
   line-height: 42px;
   font-weight: 700;
