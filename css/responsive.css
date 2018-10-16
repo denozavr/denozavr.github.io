@@ -214,7 +214,7 @@ px      68    160    252    */
     margin-bottom: 15px;
   }
 
-  section.quotes {
+  section.quotes-new-design {
     padding: 55px 0 70px;
   }
 
@@ -260,7 +260,7 @@ px      68    160    252    */
 }
 
 @media (max-width: 580px) { 
-  section.quotes {
+  section.quotes-new-design {
     padding: 105px 0 70px;
   }
 }
@@ -276,7 +276,7 @@ px      68    160    252    */
       width: 60%;
     }
   
-    section.quotes {
+    section.quotes-new-design {
       padding: 135px 0 70px;
     }
 
