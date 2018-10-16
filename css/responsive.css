@@ -257,7 +257,17 @@ px      68    160    252    */
   figure.mix.portfolio-item.wideHalfScreen{
     width: 100%;
   }
+
+  .skills-flex {
+    justify-content: space-evenly;
+  }
+
+  .skills-flex section {
+    margin: 0 25px 20px;
+  }
+
 }
+
 
 @media (max-width: 580px) { 
   section.quotes-new-design {
@@ -267,7 +277,11 @@ px      68    160    252    */
 
 
 @media (max-width: 380px) {
-  
+
+    .service-features {
+      height: 255px;
+    }
+
     section#portfolio {
       padding-top: 195px;
     }
@@ -277,7 +291,7 @@ px      68    160    252    */
     }
   
     section.quotes-new-design {
-      padding: 135px 0 70px;
+      padding: 150px 0 70px;
     }
 
 
