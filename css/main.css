@@ -776,3 +776,64 @@ figcaption.mask span {
 .footer-logo {
     margin-bottom: 15px;
 }
+
+/* New Skills section */
+
+.skills-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  /* height: 200px; */
+  
+}
+
+.skills-flex section {
+  font-size: 18px;
+  flex-basis: 20%;
+  min-width: 195px;
+  /* margin-right: 20px; */
+  /* background-color: mintcream; */
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.skills-flex h3 {
+  font-size: 22px;
+  background-color: #fff;
+  color: #fff; 
+  padding: 7px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h3.skills-server {
+  background-color: #1486bd;
+}
+h3.skills-front {
+  background-color: #cd1665;
+}
+h3.skills-data {
+  background-color:#0f9a14;
+}
+h3.skills-other {
+  background-color: #a428b1;
+}
+
+.skills-list {
+  height: 140px;
+  background: rgb(245,255,250);
+  /* honeydew, ivory, mintcream, seashell, snow, whitesmoke  */
+  background: radial-gradient(circle, rgba(245,255,250,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.skills-flex ul {
+  list-style: disc;
+  padding: 5px 0 0 30px;
+}
+
+.skills-flex p {
+  padding: 5px 15px;
+}
