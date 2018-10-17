@@ -790,7 +790,9 @@ figcaption.mask span {
 }
 
 .skills-flex section {
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 14px;
+  line-height: 24px;
   flex-basis: 20%;
   min-width: 195px;
   /* margin-right: 20px; */
@@ -800,7 +802,7 @@ figcaption.mask span {
 }
 
 .skills-flex h3 {
-  font-size: 22px;
+  /* font-size: 22px; */
   background-color: #fff;
   color: #fff; 
   padding: 7px;
